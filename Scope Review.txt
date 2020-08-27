@@ -1,0 +1,35 @@
+Grade: 5/10
+
+1. Forming a team: [1/1]
+
+Well-characterized team and interests.
+
+2. Selecting curated data: [2/2]
+
+Data set is acceptable and motivated properly for the task.
+
+3. Conducting EDA: [1/3] -- Feedback incorporated
+
+Your EDA is VERY limited, only printing out the data. There's likewise some relatively unexplained counting, too, which just resolves in printing the keys of the counter---what is this supposed to exhibit??
+
+----- This is prointed to show the attributes we are picking for our analysis. More detailed EDA is performed while doing the project.
+
+Please make sure your project continues with a more in-depth exploratory analysis, characterizing the data set well, and noting any interesting patterns and how they might relate to hypotheses of interest.
+
+----- This is incorporated in our project.
+
+4. Developing Hypotheses: [1/2] -- Feedback incorporated
+
+Some goals are indicated:
+
+> Under this project we are identifying the benefic and malefic indicators which lays strong impact in National GDP. Also we are using the time series prediction of final values as our end result.
+
+but do you want to predict GDP, or is this just essentially a feature experiment effort, discovering what affects GDP? Do you have any expectations?
+
+------ Our project is trying to discover the features which affects GDP initially then we are training our models with attributes highly corelated with GDP and predicting GDP.  Also we are using TS calculation to predict and forecast GNI. The analysis can be used to predict any attribute of any country. It is designed to forecast next 20 years prediction using last 30 years data.
+
+5. Model selection: [0/2] -- Feedback incorporated
+
+No discussion of potential models is presented in the submission.
+
+----- KNeighbour model is found to be best for our feature training and predicting values. Time series ARIMA model is used for prediction and forecasting values of future.
